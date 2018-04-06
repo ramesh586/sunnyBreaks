@@ -20,8 +20,8 @@ app.controller('mainController', function($scope) {
                         + "Email : "+  subscribeData.subscribeEmail + "<br />";
 
         var smtp_Server = "smtp.elasticemail.com";
-        var userName = "rummy586@gmail.com";
-        var password = "b562eb53-6d30-45a1-b85e-07908734668a";
+        var userName = "dummy@gmail.com";
+        var password = "createown";
 
         Email.send(userName,
           subscribeData.subscribeEmail,
