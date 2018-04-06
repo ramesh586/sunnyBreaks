@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html  ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sunny Breaks Holidays</title>
+  <link rel="shortcut icon" href="assets/images/logo_size_icon_invert.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+
+  <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/js/angular.min.js"></script>
+  <script type="text/javascript" src="/assets/js/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="/assets/js/app.js"></script>
+  <script type="text/javascript" src="/assets/js/controller.js"></script>
+  <script type="text/javascript" src="/assets/js/common.js"></script>
+  <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script src="https://smtpjs.com/v2/smtp.js"></script>
+
+</head>
+<body ng-controller="mainController">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="header-wrapper" ng-include="'/assets/partials/header.html'"></div>
+      <div class="main-content" ui-view></div>
+      <div class="footer-wrapper" ng-include="'/assets/partials/footer.html'"></div>
+    </div>
+  </div>
+
+
+
+  <!-- line modal -->
+  <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+  	<div class="modal-content">
+  		<div class="modal-body">
+        <!-- content goes here -->
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+
+	      <form name="subscribeForm" ng-submit="subscribeNow(subscribeData)">
+          <h3 class="form-title text-center" id="">Subscribe</h3>
+
+
+          <div class="form-group" ng-class="{'has-error':subscribeForm.subscribeEmail.$invalid && !subscribeForm.subscribeEmail.$pristine}">
+              <label for="exampleInputEmail1">Email address</label>
+              <input  name="subscribeEmail" ng-model= "subscribeData.subscribeEmail" class="form-control" placeholder="Email" type="email" required>
+              <span ng-show="subscribeForm.subscribeEmail.$invalid && !subscribeForm.subscribeEmail.$pristine" class="help-block">Email required</span>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Name</label>
+            <input type="text" class="form-control" id="" placeholder="Name" ng-model="subscribeData.subscribeName">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Mobile Number</label>
+            <input type="text" class="form-control" id="" placeholder="mobileNumber" ng-model="subscribeData.mobileNumber">
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <button type="submit" name="button" class="btn btn-subscribe" ng-disabled="subscribeForm.$invalid">Subscribe</button>
+            </div>
+          </div>
+
+        </form>
+  		</div>
+  	</div>
+    </div>
+  </div>
+
+
+  <script>
+    (function(){
+  $('script').each(function() {
+      var src=$(this).attr('src');
+      if (src && src != '') {
+        var str = src+'?time='+new Date();
+        $(this).attr('src', str);
+      }
+  })
+  $('link').each(function() {
+      var href=$(this).attr('href');
+      if (href && href != '') {
+        var str = href+'?time='+new Date();
+        $(this).attr('href', str);
+      }
+  })
+  })();
+    </script>
+</body>
+</html>

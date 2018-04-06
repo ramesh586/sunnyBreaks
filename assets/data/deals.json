@@ -1,0 +1,190 @@
+[
+    
+    {
+        "name": "FUERTEVENTURA",
+        "cost": 249,
+        "overview": {
+            "main_points": [
+                "Hotel Name : Castillo Beach Bungalows  / 3*",
+                "Destination :  Caleta de Fuste",
+                "Board Basis : All Inclusive ",
+                "Deal Start Date : 03rd Feb 2018",
+                "Deal Expiry : 19th Feb 2018"
+            ]
+        },
+        "from": {
+            "bold": true,
+            "data": "£249PP  (2 sharing basis)"
+        },
+        "quote_ref": 1000,
+        "rating": "4",
+        "contact_info": {
+            "phone_number": "0208 050 4205",
+            "days": "Mon-Sun",
+            "hours": "08:00 - 23:00"
+        },
+        "images": [
+            "/aimg/62235055.jpg",
+            "/aimg/62235057.jpg",
+            "/aimg/download.jpg"
+        ]
+    },
+    {
+        "name": "ALGARVE",
+        "cost": 219,
+        "overview": {
+            "main_points": [
+                "Hotel Name : Varandas de Albufeira / 3*",
+                "Destination : Albufeira",
+                "Board Basis : All Inclusive ",
+                "Deal Start Date :9th Mar 2018",
+                "Deal Expiry : 19th Mar 2018"
+            ]
+        },
+        "from": {
+            "bold": true,
+            "data": "£249PP  (2 sharing basis)"
+        },
+        "quote_ref": 1000,
+        "rating": "4",
+        "contact_info": {
+            "phone_number": "0208 050 4205",
+            "days": "Mon-Sun",
+            "hours": "08:00 - 23:00"
+        },
+        "images": [
+            "/aimg/26219381.jpg",
+            "/aimg/37589364.jpg",
+            "/aimg/Hotel_Paraiso_de_Albufeira-Albufeira-Restaurant-3-571594.jpg"
+        ]
+    },
+    {
+        "name": "MALTA",
+        "cost": 199,
+        "overview": {
+            "main_points": [
+                "Hotel Name : Bella Vista Hotel / 3*",
+                "Destination : St. Paul's Bay",
+                "Board Basis : All Inclusive ",
+                "Deal Start Date :9th Mar 2018",
+                "Deal Expiry : 19th Mar 2018"
+            ]
+        },
+        "from": {
+            "bold": true,
+            "data": "£199PP  (2 sharing basis)"
+        },
+        "quote_ref": 1000,
+        "rating": "4",
+        "contact_info": {
+            "phone_number": "0208 050 4205",
+            "days": "Mon-Sun",
+            "hours": "08:00 - 23:00"
+        },
+        "images": [
+            "/aimg/33.jpg",
+            "/aimg/11.jpg",
+            "/aimg/23.jpg"
+        ]
+    },
+    {
+        "name": "MARRAKECH",
+        "cost": 199,
+        "overview": {
+            "main_points": [
+                "Hotel Name : Club Paradisio / 4*",
+                "Destination : Marrakech",
+                "Board Basis : All Inclusive ",
+                "Deal Start Date : 9th Mar 2018",
+                "Deal Expiry : 19th Mar 2018"
+            ]
+        },
+        "from": {
+            "bold": true,
+            "data": "£199PP  (2 sharing basis)"
+        },
+        "quote_ref": 1000,
+        "rating": "4",
+        "contact_info": {
+            "phone_number": "0208 050 4205",
+            "days": "Mon-Sun",
+            "hours": "08:00 - 23:00"
+        },
+        "images": [
+            "/aimg/5665003_45_z.jpg",
+            "/aimg/93223316.jpg",
+            "/aimg/hotel-club-paradisio-el-gouna-043.jpg"
+        ]
+    },
+  {
+    "name": "HURGHADA",
+    "cost": 399,
+    "overview": {
+      "main_points": [
+        "Hotel Name : Panorama Bungalows Resort  / 4*",
+        "Destination : Hurghada",
+        "Board Basis : All Inclusive ",
+        "Deal Start Date : 9th Mar 2018",
+        "Deal Expiry : 19th Mar 2018"
+      ]
+    },
+    "from": {
+      "bold": true,
+      "data": "£399PP  (2 sharing basis)"
+    },
+    "quote_ref": 1000,
+    "rating": "4",
+    "contact_info": {
+      "phone_number": "0208 050 4205",
+      "days": "Mon-Sun",
+      "hours": "08:00 - 23:00"
+    },
+    "images": [
+      "/aimg/panorama-bungalows-resort1.jpg",
+      "/aimg/download2.jpg",
+      "/aimg/98319847.jpg"
+    ]
+  },
+    {
+        "name": "BENIDORM",
+        "cost": 249,
+        "overview": {
+            "main_points": [
+                "Departure Date: 17th Mar 2018",
+                "Departure Airport: London Gatwick",
+                "No. of Nights: 7 Nights",
+                "Board Basis: AI",
+                "Hotel: MAGIC CRISTAL PARK****",
+                "Resort: BENIDORM",
+                "Trip Advisor: ****"
+            ],
+            "sub_points": {
+                "INCLUDES": [
+                    "Flights from London Gatwick",
+                    "4* Accommodation",
+                    "Board Basis - All Inclusive",
+                    "Transfers",
+                    "NOTE **** 20% Discount provided on Checked in Baggage ****"
+                ],
+                "EXCLUDES": [
+                    "Other Departure Airports available at a supplement charge",
+                    "Check with the travel advisor for other travel dates and the availability",
+                    "Please Note : Prices subject to availability"
+                ],
+                "MAGIC CRISTAL PARK 4* ALL INCLUSIVE": [
+                    "This property is 6 minutes walk from the beach. Magic Cristal Park is located opposite Benidorm’s Aigüera Park and 5 minutes’ walk from Levante Beach. It offers an indoor swimming pool, hot tub and air-conditioned rooms with satellite TV. The hotel’s top-floor swimming pool is set beneath a glass pyramid. The hotel offers activities for adults such as archery and bowling, and there is also a games room. The Rifi Kids’ Club is based around the pool in the summer months, and the rest of the year it offers table football and Nintendo Wii games. All rooms at the Magic Cristal Park Hotel are equipped with a private bathroom. There are also tea and coffee-making facilities. The hotel’s restaurant offers a buffet service and special dietary menu can be arranged on request. You can also enjoy a drink with some live music at Magic Café."
+                ]
+            }
+        },
+        "quote_ref": 1000,
+        "rating": "4",
+        "contact_info": {
+            "phone_number": "0208 050 4205",
+            "days": "Mon-Sun",
+            "hours": "08:00 - 23:00"
+        },
+        "images": [
+            "/aimg/bd1.jpg"
+        ]
+    }
+]

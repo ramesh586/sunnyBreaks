@@ -1,0 +1,143 @@
+[
+    {
+        "name": "MAJORCA",
+        "cost": 159,
+        "quote_ref": 1000,
+        "rating": "4",
+        "contact_info": {
+            "phone_number": "0208 050 4205",
+            "days": "Mon-Sun",
+            "hours": "08:00 - 23:00"
+        },
+        "images": [
+            "/aimg/001540a_hb_a_001.jpg",
+            "/aimg/migxxlgbemkvyfdd8lob.jpg",
+            "/aimg/qpd8jrw9lxzz3sd8tgot.jpg"
+        ],
+        "overview": {
+            "main_points": [
+                "Hotel Name : Hotel Caribbean Bay / 3*",
+                "Destination : El Arenal",
+                "Board Basis : All Inclusive",
+                "Deal Start Date : 23rd Feb 2018",
+                "Deal Expiry :  09th MAR 2018"
+            ]
+        },
+        "from": {
+            "bold": true,
+            "data": "£159PP  (2 sharing basis)"
+        }
+    },
+    {
+        "name": "COSTA BRAVA",
+        "cost": 99,
+        "overview": {
+            "main_points": [
+                "Hotel Name : AOA / 4*",
+                "Destination : Lloret de Mar",
+                "Board Basis : All Inclusive",
+                "Deal Start Date :03rd Feb 2018",
+                "Deal Expiry : 19th Feb 2018"
+            ]
+        },
+        "from": {
+            "bold": true,
+            "data": "£99PP  (2 sharing basis)"
+        },
+        "quote_ref": 1000,
+        "rating": "4",
+        "contact_info": {
+            "phone_number": "0208 050 4205",
+            "days": "Mon-Sun",
+            "hours": "08:00 - 23:00"
+        },
+        "images": [
+            "/aimg/1.JPG",
+            "/aimg/21.jpg"
+        ]
+    },
+    {
+        "name": "COSTA DORADA",
+        "cost": 159,
+        "overview": {
+            "main_points": [
+                "Hotel Name :  H.TOP Molinos Park Hotel / 4*",
+                "Destination : Salou",
+                "Board Basis : All Inclusive ",
+                "Deal Start Date : 23rd Feb 2018",
+                "Deal Expiry : 09th Mar 2018"
+            ]
+        },
+        "from": {
+            "bold": true,
+            "data": "£159PP  (2 sharing basis)"
+        },
+        "quote_ref": 1000,
+        "rating": "4",
+        "contact_info": {
+            "phone_number": "0208 050 4205",
+            "days": "Mon-Sun",
+            "hours": "08:00 - 23:00"
+        },
+        "images": [
+            "/aimg/004.jpg",
+            "/aimg/04.jpg"
+        ]
+    },
+    {
+        "name": "TENERIFE",
+        "cost": 299,
+        "overview": {
+            "main_points": [
+                "Hotel Name : Granada Park / 3*",
+                "Destination : Playa De Las Americas",
+                "Board Basis : All Inclusive ",
+                "Deal Start Date : 23rd Feb 2018",
+                "Deal Expiry : 09th Mar 2018"
+            ]
+        },
+        "from": {
+            "bold": true,
+            "data": "£299PP  (2 sharing basis)"
+        },
+        "quote_ref": 1000,
+        "rating": "4",
+        "contact_info": {
+            "phone_number": "0208 050 4205",
+            "days": "Mon-Sun",
+            "hours": "08:00 - 23:00"
+        },
+        "images": [
+            "/aimg/06.jpg",
+            "/aimg/006.jpg"
+        ]
+    },
+    {
+        "name": "LANZAROTE",
+        "cost": 319,
+        "overview": {
+            "main_points": [
+                "Hotel Name : Blue Sea Hotel Los Fiscos/ 3*",
+                "Destination : Puerto Del Carmen",
+                "Board Basis : All Inclusive ",
+                "Deal Start Date : 23rd Feb 2018",
+                "Deal Expiry : 09th Mar 2018"
+            ]
+        },
+        "from": {
+            "bold": true,
+            "data": "£319PP  (2 sharing basis)"
+        },
+        "quote_ref": 1000,
+        "rating": "4",
+        "contact_info": {
+            "phone_number": "0208 050 4205",
+            "days": "Mon-Sun",
+            "hours": "08:00 - 23:00"
+        },
+        "images": [
+            "/aimg/06.jpg",
+            "/aimg/006.jpg"
+        ]
+    }
+]

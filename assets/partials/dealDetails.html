@@ -1,0 +1,81 @@
+<div class="inner-banner">
+        <div class="inner-banner-details">
+            <h1>{{recommendedDealsDetails.name}}</h1>
+        </div>
+    </div>
+    <div class="package-details-wrapper">
+      <div class="container">
+        <div class="row innerpage-bg">
+          <div class="col-md-8">
+              <div id="main_area">
+                  <!-- Slider -->
+                  <div class="row">
+                    <div class="col-sm-12">
+                        <div id="slider">
+                            <!-- Top part of the slider -->
+                            <div class="row">
+                                <div class="col-sm-12 padding-0" id="carousel-bounding-box">
+                                    <div class="carousel slide" id="myCarousel">
+                                        <!-- Carousel items -->
+                                        <div class="carousel-inner">
+                                            <div class="item" ng-class="{active: $index == 0}" data-slide-number={{$index}} ng-repeat="($index,images) in recommendedDealsDetails.images">
+                                                <img src="{{images}}"></div>
+
+                                        </div>
+                                        <!-- Carousel nav -->
+                                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="col-sm-12" id="slider-thumbs">
+                          <!-- Bottom switcher of slider -->
+                          <ul class="row hide-bullets">
+                                <li ng-repeat="($index,subList) in recommendedDealsDetails.images">
+                                        <a class="thumbnail" id="carousel-selector-{{$index}}"><img src="{{subList}}"></a>
+                                      </li>
+                              <div class="clearfix"></div>
+                          </ul>
+                      </div>
+
+                      <!--/Slider-->
+                  </div>
+              </div>
+              <div class="package-desc">
+                <div class="row">
+                    <h2>Overview</h2>
+                    <div class="includes">
+                      <h3>Includes</h3>
+                      <ul>
+                          <li ng-repeat="overview in recommendedDealsDetails.overview.main_points">{{overview}}</li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-4 package-desc-right">
+                <div class="sidber-box help-widget">
+                    <h4>Call now to book this holiday</h4>
+                    <a href="#" class="phone">{{recommendedDealsDetails.contact_info.phone_number}} </a>
+                    <p><b>Opening Hours</b></p>
+                    <p><b>{{recommendedDealsDetails.contact_info.days}} &nbsp; &nbsp; &nbsp;  {{recommendedDealsDetails.contact_info.hours}}</b></p>
+                </div>
+                <div class="sidber-box booking_price">
+                    <div class="price">
+                        <p>From</p>
+                        <p><strong>£ {{recommendedDealsDetails.cost}}</strong><small>per person</small></p>
+                        <p><b ng-repeat="n in [] | range:rating">&#9733;</b><b ng-show="recommendedDealsDetails.rating < 5">&#9734;</b></p>
+                        <p>Quote Ref: {{recommendedDealsDetails.quote_ref}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
